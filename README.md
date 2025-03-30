@@ -3,25 +3,22 @@
 OVERVIEW
 This project explores TV energy consumption trend using data visualisation. It provides insights of television technology, its power usage and different factors which are faced by the consumers.
 
-OBSERVER
-Our observers includs:
-Consumers - those who are looking for energy-efficient TVs
-Manufacturers - for insights for making TVs more energy-efficient
-Others - monitoring the industry trends
+Data Source 
+The dataset was obtained from Australian government website, which includes tv models available in Australia, their screen technologies, power consumptiona nd other attributes.
 
-INSIGHTS
-Most common televisions that are used in Australia is LED TVs
-The most sold television company is Samsung
-The OLED televisions consumes the most energy
+Data Processing
+CLeaning - Removed the missing values and duplicate entries in the dataset.
+Aggregation - Group TVs by screen size, type and power consumption
+Transformation - Making different graphs for proper analysis
 
-VISUALISATION 
-Bar charts - used for energy consuming televisions
-Pie charts - used for different companies selling the televisions 
-Histograms - used for most selling screen sizes in Australia
-Scatter Plot - used for relationship between the screen size and power consumption
+Privacy 
+The dataset does not contain personal or sensitive information
 
-CONCLUSION & RECOMMENDATION
-The LCD & LED Televisions and small screen size televisions uses the least energy
+Accuracy & Limitations
+The dataset includes the models of televisions in Australia. But, some entries may be outdated and unprecised.
+
+Ethics
+Data is presented without any biasness and no misleading visulaizations were applied in this exercise.
 
 AI DECLARATION
 No AI was used to generate or manipulate data. It was used for learning how to use GroupBy node and graph nodes.
