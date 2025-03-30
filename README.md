@@ -4,7 +4,7 @@ OVERVIEW
 This project explores TV energy consumption trend using data visualisation. It provides insights of television technology, its power usage and different factors which are faced by the consumers.
 
 Data Source 
-The dataset was obtained from Australian government website, which includes tv models available in Australia, their screen technologies, power consumptiona nd other attributes.
+The dataset was obtained from Australian government website, which includes tv models available in Australia, their screen technologies, power consumptiona and other attributes.
 
 Data Processing
 CLeaning - Removed the missing values and duplicate entries in the dataset.
